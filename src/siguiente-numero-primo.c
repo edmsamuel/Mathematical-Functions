@@ -2,8 +2,7 @@
 #include <stdlib.h>
 #include "numeros-primos.h"
 
-int main(int argc, char const *argv[])
-{
+int main( int argc, char const *argv[] ) {
 	int primo;
 	int anterior;
 

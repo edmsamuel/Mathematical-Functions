@@ -22,7 +22,7 @@ void factoresPrimosDeNumero( int numero ) {
 	while ( actual > 1 ) {
 
 		if ( esDivisible( actual, primo ) ) {
-			printf("%d | %d\n", numero, primo );
+			printf("%d | %d\n", actual, primo );
 			actual = ( actual / primo );
 		} else {
 			primo = siguienteNumeroPrimo( primo );
